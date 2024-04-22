@@ -168,42 +168,38 @@ footer {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-links ul {
-        flex-direction: column;
-        margin-top: 1rem;
-    }
-
-    .nav-links ul li {
-        margin-left: 0;
-        margin-bottom: 0.5rem;
-    }
-
     .section-content {
-        max-width: 100%;
-        padding: 0 1rem;
+      max-width: 100%;
+      padding: 0 1rem;
     }
-}
-
-@media (max-width: 480px) {
+  }
+  
+  @media (max-width: 480px) {
     .contact h2 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
-
+  
     .contact p {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-
+  
+    .team-member {
+      max-width: 100%;
+    }
+  
+    .team-member img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
+  
     .form-group label {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-
+  
     .form-group input,
     .form-group textarea {
-        font-size: 0.9rem;
+      font-size: 0.9rem;
+      padding: 0.8rem;
     }
-}
+  }
